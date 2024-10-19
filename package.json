@@ -1,0 +1,23 @@
+{
+  "name": "ansible-restart",
+  "version": "2.0.0",
+  "description": "Handle System Restart and wait for it to return",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postversion": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isaackehle/ansible-restart.git"
+  },
+  "author": "Isaac Kehle (isaac@kehle.org)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/isaackehle/ansible-restart/issues"
+  },
+  "homepage": "https://github.com/isaackehle/ansible-restart#readme",
+  "main": "tasks/main.yml",
+  "keywords": [
+    "ansible"
+  ]
+}

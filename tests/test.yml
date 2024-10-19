@@ -1,0 +1,4 @@
+---
+- hosts: "{{ test_host }}"
+  roles:
+    - isaackehle.restart
